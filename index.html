@@ -8,13 +8,20 @@
     <h1>Encabezado</h1>
     <p>Párrafo</p>
 
-    <h1>My First Web Page</h1>
-    <p>My First Paragraph</p>
+    <h1>Mi primera página.</h1>
+    <p>Texto de prueba.</p>
 
     <p id="ejemplo"></p>
+    <p id="cars"></p>
 
     <script>
-      document.getElementById("ejemplo").innerHTML = 5 + 6;
+      document.getElementById("ejemplo").innerHTML = "Las escuderías que competirán por el mundial de F1 este 2024 serán:";
+
+      const coches = ["Red Bull", " Aston Martin", " Ferrari"];
+      coches.push(" McLaren");
+      coches[4] = " Mercedes";
+      coches.push(" Alpine", " Alpha Tauri", " Sauber", " Williams", " Haas");
+      document.getElementById("cars").innerHTML = coches;
     </script>
   </body>
 </html>
