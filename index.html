@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Página Web</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
 
   <main>
     <h2>Acerca de Nosotros</h2>
-    <p>Somos una empresa dedicada a ofrecersoluciones web.</p>
+    <p>Somos una empresa dedicada a ofrecer soluciones web.</p>
   </main>
 
   <section>
@@ -34,17 +35,10 @@
     <a href="tel:+1234567890">Llamar por teléfono</a>
   </footer>
 
-    <p id="ejemplo"></p>
-    <p id="cars"></p>
+  <p id="ejemplo"></p>
+  <p id="cars"></p>
 
-    <script>
-      document.getElementById("ejemplo").innerHTML = "Las escuderías que competirán por el mundial de F1 este 2024 serán:";
+  <script src="js/scripts.js"></script>
 
-      const coches = ["Red Bull", " Aston Martin", " Ferrari"];
-      coches.push(" McLaren");
-      coches[4] = " Mercedes";
-      coches.push(" Alpine", " Alpha Tauri", " Sauber", " Williams", " Haas");
-      document.getElementById("cars").innerHTML = coches;
-    </script>
-  </body>
+</body>
 </html>
